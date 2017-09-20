@@ -1,5 +1,6 @@
 package com.example.hp1.finalapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btsignup=(Button)findViewById(R.id.btsignup);
         btsignup.setOnClickListener(this);
         tvlogin=(TextView)findViewById(R.id.tvlogin);
-        tvsignup=(TextView)findViewById(R.id.tvsignup);
+        tvsignup=(TextView)findViewById(R.id.tvregister);
         etusername=(EditText)findViewById(R.id.etusername);
         etusername=(EditText)findViewById(R.id.etpassword);
         ivmyndlift=(ImageView)findViewById(R.id.ivmyndlift);
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-
+        if(view==btlogin){
+        Intent i=new Intent(this,Main2Activity.class);
+            startActivity(i);
+        }
     }
 }

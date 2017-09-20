@@ -33,14 +33,14 @@
     <EditText
         android:id="@+id/etusername"
         style="@style/editText_style"
-        android:background="@drawable/editText_background"
+        android:background="@drawable/edittext_background"
         android:hint="username"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/etpassword"
         style="@style/editText_style"
-        android:background="@drawable/editText_background"
+        android:background="@drawable/edittext_background"
         android:hint="password"
         android:inputType="textPassword" />
 
