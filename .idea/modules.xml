@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FinalApplication.iml" filepath="$PROJECT_DIR$/FinalApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/FinalApplication1.iml" filepath="$PROJECT_DIR$/FinalApplication1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FinalApplicationn.iml" filepath="$PROJECT_DIR$/FinalApplicationn.iml" />
       <module fileurl="file://$PROJECT_DIR$/FinalApplicationupdated.iml" filepath="$PROJECT_DIR$/FinalApplicationupdated.iml" />
       <module fileurl="file://$PROJECT_DIR$/FinalApplicationupdatedd.iml" filepath="$PROJECT_DIR$/FinalApplicationupdatedd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
