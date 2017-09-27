@@ -36,6 +36,9 @@
 
 
     </style>
+    <style name="listview_style">
+        <item name="android:background">@drawable/listview_background</item>
+    </style>
     <style name="button_style2">
         <item name="android:background">@drawable/button_backgroundtwo</item>
         <item name="android:layout_margin">5dp</item>

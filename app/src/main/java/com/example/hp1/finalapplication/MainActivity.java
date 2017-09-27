@@ -39,5 +39,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i=new Intent(this,Main2Activity.class);
             startActivity(i);
         }
+        if(view==btlogin){
+            Intent i1=new Intent(this,MenuActivity.class);
+            startActivity(i1);
+
+        }
     }
 }
