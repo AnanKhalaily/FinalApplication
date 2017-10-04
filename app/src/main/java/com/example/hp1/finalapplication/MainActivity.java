@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         if(view==btsignup){
-        Intent i=new Intent(this,Main2Activity.class);
+        Intent i=new Intent(this,Signup.class);
             startActivity(i);
         }
         if(view==btlogin){

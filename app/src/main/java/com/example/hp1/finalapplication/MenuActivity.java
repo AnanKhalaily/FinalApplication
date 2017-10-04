@@ -2,11 +2,13 @@ package com.example.hp1.finalapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class MenuActivity extends AppCompatActivity {
+public class MenuActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     ListView lvtepulem;
     ArrayList<lvtepul> tepulim=new ArrayList<lvtepul>();
 
@@ -24,5 +26,12 @@ public class MenuActivity extends AppCompatActivity {
         lvtepulem.setAdapter(custom);
 
 
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        if(position==0){
+
+        }
     }
 }

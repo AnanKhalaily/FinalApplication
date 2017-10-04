@@ -11,7 +11,7 @@
     android:background="@drawable/screenbackground"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.hp1.finalapplication.Main2Activity"
+    tools:context="com.example.hp1.finalapplication.Signup"
     android:weightSum="1">
 
     <ImageView
