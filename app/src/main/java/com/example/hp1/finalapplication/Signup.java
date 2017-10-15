@@ -10,7 +10,7 @@ public class Signup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.Signup);
+        setContentView(R.layout.signup);
 
         }
     }
