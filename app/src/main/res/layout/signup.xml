@@ -18,43 +18,43 @@
         android:layout_width="wrap_content"
         android:layout_height="52dp"
         app:srcCompat="@drawable/signup"
-        android:id="@+id/imageView"
+        android:id="@+id/ivsignup"
         android:layout_marginBottom="20dp" />
 
     <TextView
         android:text="Username:"
         style="@style/textview_style"
-        android:id="@+id/textView"
+        android:id="@+id/username1"
         android:layout_width="wrap_content" />
 
     <EditText
         android:inputType="textPersonName"
         style="@style/editTexttwo_style"
-        android:id="@+id/editText"
+        android:id="@+id/tvusername"
         android:layout_weight="0.03"
         android:hint="Username" />
 
     <TextView
         android:text="Password:"
         style="@style/textview_style"
-        android:id="@+id/textView2"
+        android:id="@+id/tvpass"
         android:layout_width="wrap_content" />
 
     <EditText
         android:inputType="textPassword"
         style="@style/editText_style"
-        android:id="@+id/editText5"
+        android:id="@+id/etpasswordd"
         android:layout_weight="0.03"
         android:hint="Password" />
 
     <TextView
         android:text="Age:"
         style="@style/textview_style"
-        android:id="@+id/textView3"
+        android:id="@+id/tvage"
         android:layout_width="wrap_content" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/etage"
         style="@style/editText_style"
         android:layout_weight="0.05"
         android:inputType="textPersonName"
@@ -63,19 +63,19 @@
     <TextView
         android:text="Email"
         style="@style/textview_style"
-        android:id="@+id/textView4"
+        android:id="@+id/tvmail"
         android:layout_width="wrap_content" />
 
     <EditText
         android:inputType="textPersonName"
         style="@style/editText_style"
-        android:id="@+id/editText4"
+        android:id="@+id/etemail"
         android:layout_weight="0.06"
         android:hint="Insert E-mail" />
 
     <Button
         android:text="Sign up"
         style="@style/button_style3"
-        android:id="@+id/button"
+        android:id="@+id/btsignupp"
         android:layout_height="32dp" />
 </LinearLayout>
